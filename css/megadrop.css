@@ -1,0 +1,18 @@
+
+.dropbtn{
+    border:none;
+    outline:none;
+    background-color: transparent;
+}
+
+.dropbtn:hover{
+    color: yellow;
+}
+
+.dropdown-content{
+    display:none;
+}
+
+.dropdown-content:hover{
+    display:display;
+}
