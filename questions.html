@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Ampia Activity</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sidebar.css" rel="stylesheet">
+
+    <!--js-->
+    <script type="text/javascript"
+        src="http://gc.kis.v2.scr.kaspersky-labs.com/CB6E30CE-23DC-B54D-9FCE-12830B596FE5/main.js" charset="UTF-8">
+    </script>
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+    <div class="navbar-wrapper" id="nav" style="background-color:#ff0000;">
+        <div class="container">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="a16"><a href="introduce.html">Ampia</a></li>
+                            <li class="a16"><a href="project.html">Ampia 프로젝트</a></li>
+                            <li class="a16"><a href="program.html">Ampia 프로그램</a></li>
+                            <li class="a16"><a href="community.html">커뮤니티</a></li>
+
+
+                            <!--
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">공지</a></li>
+                                    <li><a href="#">게시판</a></li>
+                                </ul>
+                            </li>
+    -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>커뮤니티</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">영상</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li><a href="videoStudent.html">학생</a></li>
+                        <li><a href="videoTeacher.html">선생님</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="images.html">이미지</a>
+                </li>
+                <li>
+                    <a href="questions.html">FAQ</a>
+                </li>
+                <li>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5dR0c042ZTWhx07JzlPnhf3mlf4rAc7XajvoDN5dicWE46g/viewform">상담 신청</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                <i class="glyphicon glyphicon-align-left"></i>
+                <span>Toggle Sidebar</span>
+            </button>
+
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h2 class="featurette-heading">FAQ</h2>
+                    <p class="lead">Ampia 뮤직 아카데미 FAQ입니다.</p>
+                </div>
+                <br>
+                
+                <div class="panel-group" id="accordion">
+                    <!--<div class="faqHeader">주로 하는 질문들</div>-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseOne">
+                                    <font color="#FA5882"><strong>Q:</strong></font> 질문1 입니다
+                                </a>
+
+                            </h4>
+
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <font color=#2E64FE><strong>A:</strong></font> 답변1 입니다.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!--=========================================================================================================-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseTwo">
+                                    <font color="#FA5882"><strong>Q:</strong></font> 질문2 입니다
+                                </a>
+
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <font color=#2E64FE><strong>A:</strong></font> 답변2 입니다.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!--=========================================================================================================-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseThree">
+                                    <font color="#FA5882"><strong>Q:</strong></font> 질문3 입니다
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <font color=#2E64FE><strong>A:</strong></font> 답변3 입니다.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!--=========================================================================================================-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseFour">
+                                    <font color="#FA5882"><strong>Q:</strong></font> 질문4 입니다
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <font color=#2E64FE><strong>A:</strong></font> 답변4 입니다.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!--=========================================================================================================-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseFive">
+                                    <font color="#FA5882"><strong>Q:</strong></font> 다른 궁금한점은?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <font color=#2E64FE><strong>A:</strong></font> 답변5 입니다.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!--=========================================================================================================-->
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <style>
+        .faqHeader {
+            font-size: 27px;
+            margin-bottom: 20px;
+        }
+
+        .panel-heading [data-toggle="collapse"]:after {
+            font-family: 'Glyphicons Halflings';
+            content: "\e072";
+            /* "play" icon */
+            float: right;
+            color: #F58723;
+            font-size: 18px;
+            line-height: 22px;
+            /* rotate "play" icon from > (right arrow) to down arrow */
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        .panel-heading [data-toggle="collapse"].collapsed:after {
+            /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+            color: #454444;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js">
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+
+</html>
